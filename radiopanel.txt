@@ -1,0 +1,210 @@
+"RadioPanel.txt"
+{
+
+//"SFUI_StandardRadio"
+//"SFUI_GroupRadio"	
+//"SFUI_ReportRadio"	
+	"Groups"
+	{
+		"common"
+		{
+			"hotkey"	"1"
+			"title"	"#SFUI_CommonRadio"
+			"timeout"	 "5"
+
+			"Commands"
+			{
+				"sim"
+				{
+					"hotkey"	"1"
+					"label"	"#SFUI_Radio_Roger"
+					"cmd"	"roger"
+				}
+				
+				"nao"
+				{
+					"hotkey"	"2"
+					"label"	"#SFUI_Radio_Negative"
+					"cmd"	"negative"
+				}
+				
+				"boa"
+				{
+					"hotkey"	"3"
+					"label"	"#SFUI_Radio_Compliment"
+					"cmd"	"Compliment"
+				}
+				
+				"fuiqueai"
+				{
+					"hotkey"	"4"
+					"label"	"#SFUI_Radio_Hold_Pos"
+					"cmd"	"holdpos"
+				}
+				
+				"Drop"
+				{
+					"hotkey"	"5"
+					"label"	"#SFUI_Radio_Need_Drop"
+					"cmd"	"Needrop"
+				}
+
+				"thanks"
+				{
+					"hotkey"	"6"
+					"label"	"SFUI_Radio_Thanks"
+					"cmd"	"thanks"
+				}
+
+  				"Sorry"
+				{
+					"hotkey"	"7"
+					"label"	"#SFUI_Radio_Sorry"
+					"cmd"	"Sorry"
+				}
+			}
+		}
+
+		"standard"
+		{
+			"hotkey"	"1"
+			"title"	"#SFUI_CommandRadio"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"go"
+				{
+					"hotkey"	"1"
+					"label"	"#SFUI_Radio_Go"
+					"cmd"	"go"
+				}
+				
+				"fallback"
+				{
+					"hotkey"	"2"
+					"label"	"#SFUI_Radio_Fall_Back"
+					"cmd"	"fallback"
+				}
+				
+				"sticktog"
+				{
+					"hotkey"	"3"
+					"label"	"#SFUI_Radio_Stick_Together"
+					"cmd"	"sticktog"
+				}
+				
+				"A"
+				{
+					"hotkey"	"4"
+					"label"	"#SFUI_Radio_go_a"
+					"cmd"	"Go_a"
+				}
+				
+				"B"
+				{
+					"hotkey"	"5"
+					"label"	"#SFUI_Radio_go_b"
+					"cmd"	"Go_b"
+				}
+			}
+		}
+		
+		"group"
+		{
+			"hotkey"	"2"
+			"title"	"#SFUI_StandardRadio"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label"	"#SFUI_Radio_Roger"
+					"cmd"	"roger"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label"	"#SFUI_Radio_Negative"
+					"cmd"	"negative"
+				}
+				
+				"cheer"
+				{
+					"hotkey"	"3"
+					"label"	"#SFUI_Radio_Cheer"
+					"cmd"	"Compliment"
+				}
+				
+				"compliment"
+				{
+					"hotkey"	"4"
+					"label"	"#SFUI_Radio_Compliment"
+					"cmd"	"compliment"
+				}
+				
+				"thanks"
+				{
+					"hotkey"	"5"
+					"label"	"#SFUI_Radio_Thanks"
+					"cmd"	"thanks"
+				}
+			}
+		}
+		
+		"report"
+		{
+			"hotkey"	"3"
+			"title"	"#SFUI_ReportRadio"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"enemyspot"
+				{
+					"hotkey"	"1"
+					"label"	"#SFUI_Radio_Spotted"
+					"cmd"	"enemyspot"
+				}
+
+  				"enemydown"
+				{
+					"hotkey"	"2"
+					"label"	"#SFUI_Radio_Enemy_Down"
+					"cmd"	"enemydown"
+				}
+				
+				"needbackup"
+				{
+					"hotkey"	"3"
+					"label"	"#SFUI_Radio_Need_Backup"
+					"cmd"	"needbackup"
+				}
+				
+				"takingfire"
+				{
+					"hotkey"	"4"
+					"label"	"#SFUI_Radio_Need_Assist"
+					"cmd"	"takingfire"
+				}
+				
+				"sectorclear"
+				{
+					"hotkey"	"5"
+					"label"	"#SFUI_Radio_Sector_Clear"
+					"cmd"	"sectorclear"
+				}
+				
+				"inposition"
+				{
+					"hotkey"	"6"
+					"label"	"#SFUI_Radio_In_Position"
+					"cmd"	"inposition"
+				}			
+			}
+		}
+	}
+}
