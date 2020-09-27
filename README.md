@@ -12,5 +12,5 @@ C: \ Program Files (x86) \ Steam \ steamapps \ common \ Counter-Strike Global Of
 the file "csgo_bananagaming.txt" is the language of csgo, to run it, place the following startup option: -language bananagaming, must be placed in the following folder:
 C: \ Program Files (x86) \ Steam \ steamapps \ common \ Counter-Strike Global Offensive \ csgo \ resource
 
-and the "clear.cfg" files; "EduU.cfg"; "testcvars1.cfg" and "Treino.cfg" are placed in the following folder:
+and the "clear.cfg" files; "EduU.cfg"; "testcvars1.cfg"; "faca.txt" and "Treino.cfg" are placed in the following folder:
 C: \ Program Files (x86) \ Steam \ steamapps \ common \ Counter-Strike Global Offensive \ csgo \ cfg
