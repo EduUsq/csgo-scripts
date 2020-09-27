@@ -1,6 +1,6 @@
 these files are for the csgo configuration, as "alias"; "binds"; "commands"; etc...
 
-the file "cfg.config" and "video.txt" is the binds and video configuration of csgo, it must be placed in the following folder
+the file "cfg.config" and "video.txt" is the binds and video configuration of csgo, it must be placed in the following folder:
 
 C: \ Program Files (x86) \ Steam \ userdata \ 970090256 \ 730 \ local \ cfg
 
