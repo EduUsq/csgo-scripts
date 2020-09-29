@@ -9,12 +9,12 @@ the number 970090256 is variable for each account, you can know yours in your fr
 
 the file "radial_quickinventory.txt" is for changing the radio message settings, it must be placed in the following folder:
 
-C: \ Program Files (x86) \ Steam \ steamapps \ common \ Counter-Strike Global Offensive \ csgo \ resource \ ui
+C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource\ui
 
-the file "csgo_bananagaming.txt" is the language of csgo, to run it, place the following startup option: -language bananagaming, must be placed in the following folder:
 
-C: \ Program Files (x86) \ Steam \ steamapps \ common \ Counter-Strike Global Offensive \ csgo \ resource
+the file "csgo_EduUs.txt" and "csgo_english.txt" is the language of csgo, to run it, place the following startup option: -language bananagaming, must be placed in the following folder:
+C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource
 
 and the "clear.cfg" files; "Ed¨uUs.cfg"; "testcvars1.cfg"; "faca.txt" and "Treino.cfg" are placed in the following folder:
 
-C: \ Program Files (x86) \ Steam \ steamapps \ common \ Counter-Strike Global Offensive \ csgo \ cfg
+C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg
