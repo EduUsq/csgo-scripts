@@ -1,15 +1,11 @@
 "RadioPanel.txt"
 {
-
-//"SFUI_StandardRadio"
-//"SFUI_GroupRadio"	
-//"SFUI_ReportRadio"	
 	"Groups"
 	{
 		"common"
 		{
 			"hotkey"	"1"
-			"title"	"#SFUI_CommonRadio"
+			"title"	"Mensagem de rádio"
 			"timeout"	 "5"
 
 			"Commands"
@@ -17,49 +13,49 @@
 				"sim"
 				{
 					"hotkey"	"1"
-					"label"	"#SFUI_Radio_Roger"
+					"label"	"sim"
 					"cmd"	"roger"
 				}
 				
 				"nao"
 				{
 					"hotkey"	"2"
-					"label"	"#SFUI_Radio_Negative"
+					"label"	"nao"
 					"cmd"	"negative"
 				}
 				
 				"boa"
 				{
 					"hotkey"	"3"
-					"label"	"#SFUI_Radio_Compliment"
+					"label"	"boa"
 					"cmd"	"Compliment"
 				}
 				
 				"fuiqueai"
 				{
 					"hotkey"	"4"
-					"label"	"#SFUI_Radio_Hold_Pos"
+					"label"	"fique ai"
 					"cmd"	"holdpos"
 				}
 				
 				"Drop"
 				{
 					"hotkey"	"5"
-					"label"	"#SFUI_Radio_Need_Drop"
+					"label"	"Drop"
 					"cmd"	"Needrop"
 				}
 
-				"thanks"
+				"vlw"
 				{
 					"hotkey"	"6"
-					"label"	"SFUI_Radio_Thanks"
+					"label"	"vlw"
 					"cmd"	"thanks"
 				}
 
-  				"Sorry"
+  				"mals"
 				{
 					"hotkey"	"7"
-					"label"	"#SFUI_Radio_Sorry"
+					"label"	"mals"
 					"cmd"	"Sorry"
 				}
 			}
@@ -68,7 +64,7 @@
 		"standard"
 		{
 			"hotkey"	"1"
-			"title"	"#SFUI_CommandRadio"
+			"title"	"Mensagem de comando"
 			"timeout"	"5"
 			
 			"Commands"
@@ -76,35 +72,35 @@
 				"go"
 				{
 					"hotkey"	"1"
-					"label"	"#SFUI_Radio_Go"
+					"label"	"vai"
 					"cmd"	"go"
 				}
 				
 				"fallback"
 				{
 					"hotkey"	"2"
-					"label"	"#SFUI_Radio_Fall_Back"
+					"label"	"equipe voltar"
 					"cmd"	"fallback"
 				}
 				
 				"sticktog"
 				{
 					"hotkey"	"3"
-					"label"	"#SFUI_Radio_Stick_Together"
+					"label"	"equipe nao se separem"
 					"cmd"	"sticktog"
 				}
 				
 				"A"
 				{
 					"hotkey"	"4"
-					"label"	"#SFUI_Radio_go_a"
+					"label"	"bomb A"
 					"cmd"	"Go_a"
 				}
 				
 				"B"
 				{
 					"hotkey"	"5"
-					"label"	"#SFUI_Radio_go_b"
+					"label"	"bomb B"
 					"cmd"	"Go_b"
 				}
 			}
@@ -113,48 +109,70 @@
 		"group"
 		{
 			"hotkey"	"2"
-			"title"	"#SFUI_StandardRadio"
+			"title"	"comandos"
 			"timeout"	"5"
 			
 			"Commands"
 			{
-				"roger"
+				"noclip"
 				{
 					"hotkey"	"1"
-					"label"	"#SFUI_Radio_Roger"
-					"cmd"	"roger"
+					"label"	"Noclip"
+					"cmd"	"sv_cheats 1; noclip"
 				}
 				
-				"negative"
+				"God"
 				{
 					"hotkey"	"2"
-					"label"	"#SFUI_Radio_Negative"
-					"cmd"	"negative"
+					"label"	"God"
+					"cmd"	"sv_cheats 1; god"
 				}
 				
-				"cheer"
+				"Impact & Trajectory (ON)"
 				{
 					"hotkey"	"3"
-					"label"	"#SFUI_Radio_Cheer"
-					"cmd"	"Compliment"
+					"label"	"Impact & Trajectory (ON)"
+					"cmd"	"sv_cheats 1; sv_grenade_trajectory 1; sv_grenade_trajectory_dash 1; sv_grenade_trajectory_thickness 1; sv_grenade_trajectory_time 10; sv_showimpacts 3; sv_showimpacts_time 5"
 				}
 				
-				"compliment"
+				"Impact & Trajectory (OFF)"
 				{
 					"hotkey"	"4"
-					"label"	"#SFUI_Radio_Compliment"
-					"cmd"	"compliment"
+					"label"	"Impact & Trajectory (OFF)"
+					"cmd"	"sv_grenade_trajectory 0; sv_showimpacts 0"
 				}
 				
-				"thanks"
+				"Restart Game"
 				{
 					"hotkey"	"5"
-					"label"	"#SFUI_Radio_Thanks"
-					"cmd"	"thanks"
+					"label"	"Restart Game"
+					"cmd"	"mp_restartgame 1; mp_warmup_end"
+				}
+				
+				"Add Bot (CT)"
+				{
+					"hotkey"	"6"
+					"label"	"Add Bot CT"
+					"cmd"	"bot_add_ct"
+				}
+				
+				"Add Bot (T)"
+				{
+					"hotkey"	"7"
+					"label"	"Add Bot TR"
+					"cmd"	"bot_add_t"
+				}
+				
+				"Bot kick"
+				{
+					"hotkey"	"8"
+					"label"	"Bot kick"
+					"cmd"	"bot_kick"
 				}
 			}
 		}
 		
+
 		"report"
 		{
 			"hotkey"	"3"
@@ -163,38 +181,39 @@
 			
 			"Commands"
 			{
+			
 				"enemyspot"
 				{
 					"hotkey"	"1"
-					"label"	"#SFUI_Radio_Spotted"
+					"label"	"enimigo avistado"
 					"cmd"	"enemyspot"
 				}
 
   				"enemydown"
 				{
 					"hotkey"	"2"
-					"label"	"#SFUI_Radio_Enemy_Down"
+					"label"	"enimigo morto"
 					"cmd"	"enemydown"
 				}
 				
 				"needbackup"
 				{
 					"hotkey"	"3"
-					"label"	"#SFUI_Radio_Need_Backup"
+					"label"	"preciso de reforço"
 					"cmd"	"needbackup"
 				}
 				
 				"takingfire"
 				{
 					"hotkey"	"4"
-					"label"	"#SFUI_Radio_Need_Assist"
+					"label"	""Sob fogo inimigo"
 					"cmd"	"takingfire"
 				}
 				
 				"sectorclear"
 				{
 					"hotkey"	"5"
-					"label"	"#SFUI_Radio_Sector_Clear"
+					"label"	"área clear"
 					"cmd"	"sectorclear"
 				}
 				
