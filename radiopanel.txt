@@ -4,170 +4,177 @@
 	{
 		"common"
 		{
-			"hotkey"	"1"
-			"title"	"Mensagem de rádio"
-			"timeout"	 "5"
+			"hotkey"			"1"
+			"title"					"Mensagens de rádio"
+			"timeout"			 "5"
 
 			"Commands"
 			{
 				"sim"
 				{
 					"hotkey"	"1"
-					"label"	"sim"
-					"cmd"	"roger"
+					"label"		"Sim"
+					"cmd"			"roger"
 				}
 				
-				"nao"
+				"não"
 				{
 					"hotkey"	"2"
-					"label"	"nao"
-					"cmd"	"negative"
+					"label"		"Não"
+					"cmd"				"negative"
 				}
 				
 				"boa"
 				{
 					"hotkey"	"3"
-					"label"	"boa"
-					"cmd"	"Compliment"
+					"label"		"Boa"
+					"cmd"			"Compliment"
 				}
 				
-				"fuiqueai"
+				"Fique ai"
 				{
 					"hotkey"	"4"
-					"label"	"fique ai"
-					"cmd"	"holdpos"
+					"label"		"Fique ai"
+					"cmd"			"holdpos"
 				}
 				
 				"Drop"
 				{
 					"hotkey"	"5"
-					"label"	"Drop"
-					"cmd"	"Needrop"
+					"label"		"Drop"
+					"cmd"			"Needrop"
 				}
 
-				"vlw"
+				"Vlw"
 				{
 					"hotkey"	"6"
-					"label"	"vlw"
-					"cmd"	"thanks"
+					"label"		"Vlw!"
+					"cmd"			"thanks"
 				}
 
-  				"mals"
+  				"Mals"
 				{
 					"hotkey"	"7"
-					"label"	"mals"
-					"cmd"	"Sorry"
+					"label"		"Mals!"
+					"cmd"			"Sorry"
 				}
 			}
 		}
 
 		"standard"
 		{
-			"hotkey"	"1"
-			"title"	"Mensagem de comando"
-			"timeout"	"5"
+			"hotkey"			"1"
+			"title"					"Mensagens de comando!"
+			"timeout"			"5"
 			
 			"Commands"
 			{
-				"go"
+				"Vai"
 				{
 					"hotkey"	"1"
-					"label"	"vai"
-					"cmd"	"go"
+					"label"		"Vai!"
+					"cmd"			"go"
 				}
 				
-				"fallback"
+				"Equipe, recuar"
 				{
 					"hotkey"	"2"
-					"label"	"equipe voltar"
-					"cmd"	"fallback"
+					"label"		"Equipe, recuar!"
+					"cmd"			"fallback"
 				}
 				
-				"sticktog"
+				"Equipe, não se separe"
 				{
 					"hotkey"	"3"
-					"label"	"equipe nao se separem"
-					"cmd"	"sticktog"
+					"label"		"Equipe, não se separe!"
+					"cmd"			"sticktog"
 				}
 				
-				"A"
+				"Bomb A"
 				{
 					"hotkey"	"4"
-					"label"	"bomb A"
-					"cmd"	"Go_a"
+					"label"		"Bomb A!"
+					"cmd"			"Go_a"
 				}
 				
-				"B"
+				"Bomb B"
 				{
 					"hotkey"	"5"
-					"label"	"bomb B"
-					"cmd"	"Go_b"
+					"label"		"Bomb B!"
+					"cmd"			"Go_b"
 				}
 			}
 		}
 		
 		"group"
 		{
-			"hotkey"	"2"
-			"title"	"comandos"
-			"timeout"	"5"
+			"hotkey"			"2"
+			"title"					"Comandos"
+			"timeout"			"5"
 			
 			"Commands"
 			{
 				"noclip"
 				{
 					"hotkey"	"1"
-					"label"	"Noclip"
-					"cmd"	"sv_cheats 1; noclip"
+					"label"		"Noclip"
+					"cmd"			"sv_cheats 1; noclip"
 				}
 				
 				"God"
 				{
 					"hotkey"	"2"
-					"label"	"God"
-					"cmd"	"sv_cheats 1; god"
+					"label"		"God"
+					"cmd"			"sv_cheats 1; god"
 				}
 				
 				"Impact & Trajectory (ON)"
 				{
 					"hotkey"	"3"
-					"label"	"Impact & Trajectory (ON)"
-					"cmd"	"sv_cheats 1; sv_grenade_trajectory 1; sv_grenade_trajectory_dash 1; sv_grenade_trajectory_thickness 1; sv_grenade_trajectory_time 10; sv_showimpacts 3; sv_showimpacts_time 5"
+					"label"		"Impact & Trajectory (ON)"
+					"cmd"			"sv_cheats 1; sv_grenade_trajectory 1; sv_grenade_trajectory_thickness 1; sv_grenade_trajectory_time 7; sv_showimpacts 3; sv_showimpacts_time 4"
 				}
 				
 				"Impact & Trajectory (OFF)"
 				{
 					"hotkey"	"4"
-					"label"	"Impact & Trajectory (OFF)"
-					"cmd"	"sv_grenade_trajectory 0; sv_showimpacts 0"
+					"label"		"Impact & Trajectory (OFF)"
+					"cmd"			"sv_grenade_trajectory 0; sv_showimpacts 0"
 				}
 				
 				"Restart Game"
 				{
 					"hotkey"	"5"
-					"label"	"Restart Game"
-					"cmd"	"mp_restartgame 1; mp_warmup_end"
+					"label"		"Restart Game"
+					"cmd"			"mp_restartgame 1; mp_warmup_end"
 				}
 				
-				"Add Bot (CT)"
+				"Add Bot CT"
 				{
 					"hotkey"	"6"
-					"label"	"Add Bot CT"
-					"cmd"	"bot_add_ct"
+					"label"		"Add Bot CT"
+					"cmd"			"bot_add_ct"
 				}
 				
-				"Add Bot (T)"
+				"Add Bot TR"
 				{
 					"hotkey"	"7"
-					"label"	"Add Bot TR"
-					"cmd"	"bot_add_t"
+					"label"		"Add Bot TR"
+					"cmd"			"bot_add_t"
 				}
 				
 				"Bot kick"
 				{
 					"hotkey"	"8"
-					"label"	"Bot kick"
-					"cmd"	"bot_kick"
+					"label"		"Bot kick"
+					"cmd"			"bot_kick"
+				}
+				
+				"Bot Place"
+				{
+					"hotkey"	"9"
+					"label"		"bot place"
+					"cmd"			"bot_place"
 				}
 			}
 		}
@@ -175,54 +182,74 @@
 
 		"report"
 		{
-			"hotkey"	"3"
-			"title"	"#SFUI_ReportRadio"
-			"timeout"	"5"
+			"hotkey"			"3"
+			"title"					"Mensagens de aviso"
+			"timeout"			"5"
 			
 			"Commands"
 			{
-			
-				"enemyspot"
+				"Inimigo avistado"
 				{
 					"hotkey"	"1"
-					"label"	"enimigo avistado"
-					"cmd"	"enemyspot"
+					"label"		"Inimigo avistado!"
+					"cmd"			"enemyspot"
 				}
 
-  				"enemydown"
+  				"Inimigo morto"
 				{
 					"hotkey"	"2"
-					"label"	"enimigo morto"
-					"cmd"	"enemydown"
+					"label"		"Inimigo morto!"
+					"cmd"			"enemydown"
 				}
 				
-				"needbackup"
+				"Preciso de reforços"
 				{
 					"hotkey"	"3"
-					"label"	"preciso de reforço"
-					"cmd"	"needbackup"
+					"label"		"Preciso de reforços!"
+					"cmd"			"needbackup"
 				}
 				
-				"takingfire"
+				"Sob fogo inimigo, preciso de ajuda"
 				{
 					"hotkey"	"4"
-					"label"	""Sob fogo inimigo"
-					"cmd"	"takingfire"
+					"label"		"Sob fogo inimigo, preciso de ajuda!"
+					"cmd"			"takingfire"
 				}
 				
-				"sectorclear"
+				"Setor limpo!"
 				{
 					"hotkey"	"5"
-					"label"	"área clear"
-					"cmd"	"sectorclear"
+					"label"		"Setor limpo!"
+					"cmd"			"sectorclear"
 				}
 				
-				"inposition"
+				"Estou em posição"
 				{
 					"hotkey"	"6"
-					"label"	"#SFUI_Radio_In_Position"
-					"cmd"	"inposition"
-				}			
+					"label"		"Estou em posição!"
+					"cmd"			"inposition"
+				}
+				
+				"Reportanto"
+				{
+					"hotkey"	"7"
+					"label"		"Reportanto!"
+					"cmd"			"report"
+				}
+				
+				"Você, fique no ponto"
+				{
+					"hotkey"	"8"
+					"label"		"Você, fique no ponto!"
+					"cmd"			"takepoint"
+				}
+				
+				"Me de cobertura!"
+				{
+					"hotkey"	"9"
+					"label"		"Me de cobertura!"
+					"cmd"			"coverme"
+				}				
 			}
 		}
 	}
