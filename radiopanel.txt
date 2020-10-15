@@ -131,48 +131,41 @@
 				"Impact & Trajectory (ON)"
 				{
 					"hotkey"	"3"
-					"label"		"Impact & Trajectory (ON)"
-					"cmd"			"sv_cheats 1; sv_grenade_trajectory 1; sv_grenade_trajectory_thickness 1; sv_grenade_trajectory_time 7; sv_showimpacts 3; sv_showimpacts_time 4"
-				}
-				
-				"Impact & Trajectory (OFF)"
-				{
-					"hotkey"	"4"
-					"label"		"Impact & Trajectory (OFF)"
-					"cmd"			"sv_grenade_trajectory 0; sv_showimpacts 0"
+					"label"		"Impact/Trajectory"
+					"cmd"			"sv_cheats 1; toggle sv_grenade_trajectory 1 0; sv_grenade_trajectory_time 7; toggle sv_showimpacts 3 0; sv_showimpacts_time 4"
 				}
 				
 				"Restart Game"
 				{
-					"hotkey"	"5"
-					"label"		"Restart Game"
+					"hotkey"	"4"
+					"label"		"Restart"
 					"cmd"			"mp_restartgame 1; mp_warmup_end"
 				}
 				
 				"Add Bot CT"
 				{
-					"hotkey"	"6"
+					"hotkey"	"5"
 					"label"		"Add Bot CT"
 					"cmd"			"bot_add_ct"
 				}
 				
 				"Add Bot TR"
 				{
-					"hotkey"	"7"
+					"hotkey"	"6"
 					"label"		"Add Bot TR"
 					"cmd"			"bot_add_t"
 				}
 				
 				"Bot kick"
 				{
-					"hotkey"	"8"
+					"hotkey"	"7"
 					"label"		"Bot kick"
 					"cmd"			"bot_kick"
 				}
 				
 				"Bot Place"
 				{
-					"hotkey"	"9"
+					"hotkey"	"8"
 					"label"		"bot place"
 					"cmd"			"bot_place"
 				}
