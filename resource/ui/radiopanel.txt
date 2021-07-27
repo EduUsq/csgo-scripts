@@ -48,14 +48,14 @@
 				"Vlw"
 				{
 					"hotkey"	"6"
-					"label"		"Vlw!"
+					"label"		"Vlw"
 					"cmd"			"thanks"
 				}
 
   				"Mals"
 				{
 					"hotkey"	"7"
-					"label"		"Mals!"
+					"label"		"Mals"
 					"cmd"			"Sorry"
 				}
 			}
@@ -64,7 +64,7 @@
 		"standard"
 		{
 			"hotkey"			"1"
-			"title"					"Mensagens de comando!"
+			"title"					"Mensagens de comando"
 			"timeout"			"5"
 			
 			"Commands"
@@ -72,35 +72,35 @@
 				"Vai"
 				{
 					"hotkey"	"1"
-					"label"		"Vai!"
+					"label"		"Vai"
 					"cmd"			"go"
 				}
 				
-				"Equipe, recuar"
+				"recuar"
 				{
 					"hotkey"	"2"
-					"label"		"Equipe, recuar!"
+					"label"		"recuar"
 					"cmd"			"fallback"
 				}
 				
-				"Equipe, não se separe"
+				"não se separem"
 				{
 					"hotkey"	"3"
-					"label"		"Equipe, não se separe!"
+					"label"		"não se separem"
 					"cmd"			"sticktog"
 				}
 				
 				"Bomb A"
 				{
 					"hotkey"	"4"
-					"label"		"Bomb A!"
+					"label"		"Bomb A"
 					"cmd"			"Go_a"
 				}
 				
 				"Bomb B"
 				{
 					"hotkey"	"5"
-					"label"		"Bomb B!"
+					"label"		"Bomb B"
 					"cmd"			"Go_b"
 				}
 			}
@@ -109,65 +109,44 @@
 		"group"
 		{
 			"hotkey"			"2"
-			"title"					"Comandos"
+			"title"					"Mensagem padrão"
 			"timeout"			"5"
 			
 			"Commands"
 			{
-				"noclip"
+				"viva"
 				{
 					"hotkey"	"1"
-					"label"		"Noclip"
-					"cmd"			"sv_cheats 1; noclip"
+					"label"		"viva"
+					"cmd"			"cheer"
 				}
 				
-				"God"
+				"Me de cobertura"
 				{
 					"hotkey"	"2"
-					"label"		"God"
-					"cmd"			"sv_cheats 1; god"
+					"label"		"Me de cobertura"
+					"cmd"			"coverme"
 				}
 				
-				"Impact & Trajectory (ON)"
+				"fique no ponto"
 				{
 					"hotkey"	"3"
-					"label"		"Impact/Trajectory"
-					"cmd"			"sv_cheats 1; toggle sv_grenade_trajectory 1 0; sv_grenade_trajectory_time 7; toggle sv_showimpacts 3 0; sv_showimpacts_time 4"
+					"label"		"fique no ponto"
+					"cmd"			"takepoint"
 				}
 				
-				"Restart Game"
+				"Estou em posição"
 				{
 					"hotkey"	"4"
-					"label"		"Restart"
-					"cmd"			"mp_restartgame 1; mp_warmup_end"
+					"label"		"Estou em posição"
+					"cmd"			"inposition"
 				}
 				
-				"Add Bot CT"
+				"Reportanto"
 				{
 					"hotkey"	"5"
-					"label"		"Add Bot CT"
-					"cmd"			"bot_add_ct"
-				}
-				
-				"Add Bot TR"
-				{
-					"hotkey"	"6"
-					"label"		"Add Bot TR"
-					"cmd"			"bot_add_t"
-				}
-				
-				"Bot kick"
-				{
-					"hotkey"	"7"
-					"label"		"Bot kick"
-					"cmd"			"bot_kick"
-				}
-				
-				"Bot Place"
-				{
-					"hotkey"	"8"
-					"label"		"bot place"
-					"cmd"			"bot_place"
+					"label"		"Reportanto"
+					"cmd"			"report"
 				}
 			}
 		}
@@ -184,64 +163,36 @@
 				"Inimigo avistado"
 				{
 					"hotkey"	"1"
-					"label"		"Inimigo avistado!"
+					"label"		"Inimigo avistado"
 					"cmd"			"enemyspot"
 				}
 
   				"Inimigo morto"
 				{
 					"hotkey"	"2"
-					"label"		"Inimigo morto!"
+					"label"		"Inimigo morto"
 					"cmd"			"enemydown"
 				}
 				
 				"Preciso de reforços"
 				{
 					"hotkey"	"3"
-					"label"		"Preciso de reforços!"
+					"label"		"Preciso de reforços"
 					"cmd"			"needbackup"
 				}
 				
-				"Sob fogo inimigo, preciso de ajuda"
+				"preciso de ajuda"
 				{
 					"hotkey"	"4"
-					"label"		"Sob fogo inimigo, preciso de ajuda!"
+					"label"		"preciso de ajuda"
 					"cmd"			"takingfire"
 				}
 				
 				"Setor limpo!"
 				{
 					"hotkey"	"5"
-					"label"		"Setor limpo!"
+					"label"		"Setor limpo"
 					"cmd"			"sectorclear"
-				}
-				
-				"Estou em posição"
-				{
-					"hotkey"	"6"
-					"label"		"Estou em posição!"
-					"cmd"			"inposition"
-				}
-				
-				"Reportanto"
-				{
-					"hotkey"	"7"
-					"label"		"Reportanto!"
-					"cmd"			"report"
-				}
-				
-				"Você, fique no ponto"
-				{
-					"hotkey"	"8"
-					"label"		"Você, fique no ponto!"
-					"cmd"			"takepoint"
-				}
-				
-				"Me de cobertura!"
-				{
-					"hotkey"	"9"
-					"label"		"Me de cobertura!"
-					"cmd"			"coverme"
 				}				
 			}
 		}
