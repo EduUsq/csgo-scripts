@@ -29,6 +29,7 @@ dps abra o jogo q vai ta tudo certo
 ⠀
 
 'overviews':
+
 (radar preto)
 
 C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource\overviews
@@ -39,6 +40,7 @@ dnv, so taca la, e clica em substituir q da tudo certo
 ⠀
 
 'cfg':
+
 (tem q falar algo?)
 
 C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg
